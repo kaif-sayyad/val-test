@@ -1,0 +1,17 @@
+{
+  "name": "vuln-test-repo",
+  "version": "1.0.0",
+  "description": "Intentionally outdated dependencies for testing vulnerability scanners",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "lodash": "4.17.15",
+    "minimist": "1.2.0",
+    "express": "4.16.0",
+    "axios": "0.18.0",
+    "node-fetch": "2.6.0",
+    "moment": "2.29.1"
+  }
+}
